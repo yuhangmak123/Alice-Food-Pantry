@@ -1,0 +1,123 @@
+.mainFlex {
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  height: 80px;
+  justify-content: center;
+  background-color: black;
+}
+.flexbox-3 {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.logo {
+
+}
+
+#logoPic {
+  width: 95%;
+  height: 95%;
+}
+div {
+}
+.home {
+  margin-top: 23px;
+  width: 100px;
+}
+#homeButton {
+  font-size: 20px;
+  color: white; 
+}
+.aboutUs {
+  margin-top: 23px;
+  width: 120px;
+}
+#aboutUsButton {
+  font-size: 20px;
+  color: white; 
+}
+.supportUs {
+  margin-top: 23px;
+  width: 120px;
+}
+#supportUsButton {
+  font-size: 20px;
+  color: white; 
+}
+
+.search {
+  width: 500px;
+}
+
+#search {
+  height: 50px;
+  width: 500px;
+}
+
+.currentLocation {
+  width: 40px;
+}
+
+#locationPic {
+  width: 27px;
+  height: 30px;
+}
+.login {
+  margin-top: 23px;
+}
+
+#loginButton {
+  font-size: 20px;
+  color: white; 
+}
+body {
+  background-image: url("food.png");
+  background-size:     cover;                     
+  background-repeat:   no-repeat;
+  background-position: center center; 
+  height:500px
+}
+
+div {
+ 
+}
+
+.subtitle {
+  font-size: 40px;
+  font-weight: bold;
+  text-shadow: 0 0 24px white, 4px 4px 5px white;
+  font-family: sans-serif;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  margin-top: 300px;
+}
+
+.autocomplete-container {
+  position: absolute;
+  width: 500px;
+  height: 50px; 
+  align-items: center;
+}
+
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+
+#quote {
+  text-align: center;
+  margin-top: 180px;
+}

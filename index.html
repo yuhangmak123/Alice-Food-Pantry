@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script src="https://unpkg.com/@geoapify/geocoder-autocomplete@^1/dist/index.min.js"></script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://unpkg.com/@geoapify/geocoder-autocomplete@^1/styles/minimal.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://unpkg.com/@geoapify/geocoder-autocomplete@^1/styles/minimal.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="mainFlex">
+      <div class="header">
+        <div class="logo">
+          <img src="Logo.png" alt="Logo" id="logoPic" />
+        </div>
+        <div class="home">
+          <a id="homeButton" href="#">Home</a>
+        </div>
+        <div class="aboutUs">
+          <a id="aboutUsButton" href="aboutUs.html">About Us</a>
+        </div>
+        <div class="supportUs">
+          <a id="supportUsButton" href="supportUs.html">Support Us</a>
+        </div>
+        <div class="login">
+          <a
+            id="loginButton"
+            href ='Login.html'
+          >
+            Login
+          </a>
+        </div>
+      </div>
+      <div class="subtitle" id="quote">Free food is just around the corner!</div>
+      <div class="flexbox-3">
+      
+        <div class="search">
+          <div id="autocomplete" class="autocomplete-container"></div>
+        </div>
+        <div class="currentLocation">
+          <button type="button" id="locationButton">
+            <img src="locationPic.png" alt="locationPic" id="locationPic" />
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>

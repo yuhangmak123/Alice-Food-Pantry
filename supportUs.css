@@ -1,0 +1,11 @@
+  #supportMsg {
+    font-size: 50px;
+    font-weight: bold;
+    text-align:center;
+
+  }
+
+  #ads {
+    display:flex;
+    flex-direction: row;
+  }
